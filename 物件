@@ -1,6 +1,8 @@
 var dict={ name:"john", age:30};
 dict["email"] = "john@gmail.com";
 dict.tel = "02-12345678";
+dict.QQ = "96394629434";
+dict["birthday"] = "20123/02/22";
 
 
 for (var key in dict) {                                       //each
