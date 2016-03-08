@@ -1,0 +1,12 @@
+var a=[[1,6,2],  [5,3,6],  [4,4,4]];
+
+for (var i=0; i<a.length; i++) {
+  var line = "";
+  for (var j=0; j<a[i].length; j++) {
+    line = line + a[i][j] + " ";
+    for (var k=0; k<a[i][j].length; k++) {
+    	line = line +a[i][j][k] + " ";
+    }
+  }
+  console.log(line);
+}
