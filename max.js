@@ -1,9 +1,11 @@
-function max(a,b) {               //function functionName(parameters參數) { code to be executed 要執行的程式 }
-  if (a>b)
+function max(a,b,c) {               //function functionName(parameters參數) { code to be executed 要執行的程式 }
+  if (a>b && a>c)                   // X a > b && c
     return a;
-  else
+  if (b>a && b>c)
     return b;
+  if (c>a && c>b)
+    return c;
 }
 
-m = max(55,555);
-console.log("max(55,555)="+m);
+m = max(55,555,5555);
+console.log("max(55,555,5555)="+m);
